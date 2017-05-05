@@ -1,2 +1,3 @@
-#start SQL Server, start the script to create the DB and data
-/opt/mssql/bin/sqlservr.sh & ./SqlCmdStartup.sh 
+#start the script to create the DB and data then start the sqlserver
+
+./SqlCmdStartup.sh & /opt/mssql/bin/sqlservr.sh 
