@@ -13,3 +13,4 @@ COPY SqlCmdScript.sql SqlCmdScript.sql
 RUN chmod +x ./SqlCmdStartup.sh
 #start everything
 CMD /bin/bash ./entrypoint.sh
+
