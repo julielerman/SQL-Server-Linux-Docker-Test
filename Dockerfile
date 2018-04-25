@@ -1,5 +1,5 @@
 # using vNext image
-FROM microsoft/mssql-server-linux
+FROM microsoft/mssql-server-linux/latest
 
 # set environment variables
 ENV SA_PASSWORD=Passw0rd 
